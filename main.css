@@ -1,0 +1,102 @@
+h1 {
+  font-size: 110px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin: 0;
+}
+.header {
+  background-image: url(images/surf-tropical.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.big_center {
+  text-align: center;
+}
+.left_body {
+  margin-right: 10%;
+  margin-left: 10%;
+  float: left;
+  width: 50%;
+}
+.top_left {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+}
+.top_right {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+  float: right;
+}
+h2 {
+  font-size: 3.5em;
+  margin-bottom: 5px;
+}
+
+.hank {
+  height: 35px;
+}
+.paragraph1 {
+  margin-top: 40px;
+}
+.right_body {
+  margin-top: 60px;
+  float: left;
+  width: 20%;
+}
+.circle_picture {
+  height: 150px;
+  width: 35%;
+  background-image: url(images/hank_hill_by_ttket.png);
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+}
+.blue_overlay {
+  background-color: rgba(63, 105, 181, 0.62);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.blue_overlay:hover {
+  background-color: rgba(0,0,0,0);
+}
+.circle_picture_caption span {
+  color: blue;
+  font-weight: bold;
+}
+.circle_picture_caption {
+  text-align: center;
+}
+.circle_picture_caption a {
+  text-decoration: none;
+  color: grey;
+}
+.image_wrapper {
+  position: relative;
+}
+.image_wrapper img {
+  width: 100%
+}
+.right_paragraph h4 {
+  color: blue;
+}
+.right_paragraph p {
+  color: grey;
+}
+.bottom {
+  clear: both;
+  text-align: center;
+  border-top: 1px solid grey
+}
+.bottom_pics .image_wrapper {
+  width:24.5%;
+  display: inline-block;
+
+}
+.bottom_pics img {
+  height:300px;
+}
